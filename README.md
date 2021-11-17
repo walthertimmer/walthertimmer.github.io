@@ -1,24 +1,25 @@
-This repo contains my personal site. 
+This repo contains my personal site.  
+Link: https://walthertimmer.github.io/  
 
 init:
-cd /mnt/c/GIT/walthertimmer.github.io/walthertimmer.github.io
-jekyll new .
+cd /mnt/c/GIT/walthertimmer.github.io/walthertimmer.github.io  
+jekyll new .  
 
-serve:
-bundle exec jekyll serve
+serve:  
+bundle exec jekyll serve  
 
-Install:
-sudo apt-get update -y && sudo apt-get upgrade -y
-sudo apt-add-repository ppa:brightbox/ruby-ng
-sudo apt-get update
-sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf
-gem update
+Install:  
+sudo apt-get update -y && sudo apt-get upgrade -y  
+sudo apt-add-repository ppa:brightbox/ruby-ng  
+sudo apt-get update  
+sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf  
+gem update  
 gem install jekyll bundler
-jekyll -v
+jekyll -v  
 
 
-info:
-https://bartjolling.github.io/blog/2018/11/18/jekyll-on-wsl-for-github-pages.html
+info:  
+https://bartjolling.github.io/blog/2018/11/18/jekyll-on-wsl-for-github-pages.html  
 
-themes:
+themes:  
 https://pages.github.com/themes/
