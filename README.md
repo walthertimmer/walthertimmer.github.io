@@ -1,6 +1,4 @@
-Linux WSL:
-/mnt/c/GIT/walthertimmer.github.io/walthertimmer.github.io
-
+This repo contains my personal site. 
 
 init:
 cd /mnt/c/GIT/walthertimmer.github.io/walthertimmer.github.io
