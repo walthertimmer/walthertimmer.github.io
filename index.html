@@ -27,6 +27,25 @@
             text-decoration: none;
             color: blue; /* Optional: Adds default link color */
         }
+        
+        .post {
+            display: block;
+            text-align: left;
+            margin: 10px 0;
+            color: black;
+            text-decoration: none;
+        }
+
+        .post .post-date {
+            font-size: 0.9em;
+            color: gray;
+        }
+
+        .post .post-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-left: 5px;
+        }
 
     </style>
 </head>
@@ -34,9 +53,9 @@
     <h1>walthertimmer.nl</h1>
 
     <div id="intro-text">
-        Through my economics studies, I encountered data and the various things you can do and infer from it. This sparked my interest, and after my studies, I entered the data world by working for a consultancy firm, Hot ITem in Amsterdam.
+        Through my economics studies, I encountered data and the various things you can do and infer from it. This sparked my interest, and after my studies, I entered the data world by working for a consultancy firm, Hot ITem in Amsterdam.<br>
 
-        In my work, I focus on building data platforms for larger companies in the Netherlands. This involves both designing the appropriate architecture and tools, as well as implementing these platforms and the data products.
+        In my work, I focus on building data platforms for larger companies in the Netherlands. This involves both designing the appropriate architecture and tools, as well as implementing these platforms and the data products.<br>
 
         On this website, I hope to share thoughts on certain developments in the data field. This could be about new techniques, new tools, or new insights.
     </div>
@@ -48,8 +67,15 @@
     </div>
 
     <div id="post-list-container">
-        <a href="posts/first-blog-post.html" class="post" data-title="First Blog Post" data-date="2024-10-01">First Blog Post</a>
-        <a href="posts/second-blog-post.html" class="post" data-title="Second Blog Post" data-date="2024-09-30">Second Blog Post</a>
+        <!-- Blog posts with date and title format -->
+        <a href="posts/first-blog-post.html" class="post">
+            <span class="post-date">2024-10-01</span> - 
+            <span class="post-title">First Blog Post</span>
+        </a>
+        <a href="posts/second-blog-post.html" class="post">
+            <span class="post-date">2024-09-30</span> - 
+            <span class="post-title">Second Blog Post</span>
+        </a>
     </div>
 
 </body>
