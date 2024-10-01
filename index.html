@@ -27,6 +27,10 @@
             text-align: center;
         }
 
+        h2 {
+            text-align: center;
+        }
+
         p {
             font-size: 1.1em;
             line-height: 1.6;
@@ -43,16 +47,24 @@
             margin-bottom: 10px;
         }
 
+        #contact {
+            margin: 0 0;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+
         #contact a {
             display: inline-block;
             margin: 0 15px; /* Adds space between the links */
             text-decoration: none;
             color: blue; /* Optional: Adds default link color */
-        }
+        }        
 
         .post {
             display: block;
-            text-align: left;
+            text-align: center;
             margin: 10px 0;
             color: black;
             text-decoration: none;
@@ -64,8 +76,8 @@
         }
 
         .post .post-title {
-            font-size: 1.2em;
-            font-weight: bold;
+            font-size: 1em;
+            font-weight: normal;
             margin-left: 5px;
         }
 
@@ -84,32 +96,36 @@
 
 <body>
     <div class="container">
-        <h1>walthertimmer.nl</h1>
+        <h1>Walther David Timmer</h1>
 
         <div id="intro-text">
-            <p>Through my economics studies, I encountered data and the various things you can do and infer from it. This sparked my interest, and after my studies, I entered the data world by working for a consultancy firm, Hot ITem in Amsterdam.</p>
-
-            <p>In my work, I focus on building data platforms for larger companies in the Netherlands. This involves both designing the appropriate architecture and tools, as well as implementing these platforms and the data products.</p>
-
-            <p>On this website, I hope to share thoughts on certain developments in the data field. This could be about new techniques, new tools, or new insights.</p>
+            <h2>About me</h2>
+            <ul>
+                <li>Living in the FoodFalley in The Netherlands</li>
+                <li>Data Engineering Tech Lead at data consultancy firm Hot ITem in Amsterdam</li>
+                <li>Like to scuba dive, weightlift, swim and read when I'm offline (not all at once)</li>
+            </ul>
+            <h2>Interests</h2>
+            <ul>
+                <li>Cloud solution design for data platforms</li>
+                <li>Open source data tooling (getting locked into paying license fees isn't always best outcome..)</li>
+                <li>Politics (active member of the Dutch Liberal Party for 10+ years)</li>
+                <li>Books about data / tech / politics / economics</li>
+            </ul>
         </div>
 
-        <div id="contact">
-            <a href="mailto:walthertimmer@protonmail.com">Email</a>
-            <a href="https://github.com/walthertimmer" target="_blank">Github</a>
-            <a href="https://www.linkedin.com/in/walthertimmer/" target="_blank">Linkedin</a>
+        <div id="contact-container">
+            <h2>Contact</h2>
+            <div id="contact">
+                <a href="mailto:walthertimmer@protonmail.com">Email</a>
+                <a href="https://github.com/walthertimmer" target="_blank">Github</a>
+                <a href="https://www.linkedin.com/in/walthertimmer/" target="_blank">Linkedin</a>
+            </div>
         </div>
 
         <div id="post-list-container">
+            <h2>Posts</h2>
             <!-- Blog posts with date and title format -->
-            <a href="posts/first-blog-post.html" class="post">
-                <span class="post-date">2024-10-01</span> - 
-                <span class="post-title">First Blog Post</span>
-            </a>
-            <a href="posts/second-blog-post.html" class="post">
-                <span class="post-date">2024-09-30</span> - 
-                <span class="post-title">Second Blog Post</span>
-            </a>
             <a href="posts/big-data-platformen-in-2024.html" class="post">
                 <span class="post-date">2024-06-21</span> - 
                 <span class="post-title">Big data platformen in 2024</span>
