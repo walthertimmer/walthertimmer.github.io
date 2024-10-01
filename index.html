@@ -26,38 +26,52 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to My Blog</h1>
+    <h1>walthertimmer.nl</h1>
+
+    <div>
+        Through my economics studies, I encountered data and the various things you can do and infer from it. This sparked my interest, and after my studies, I entered the data world by working for a consultancy firm, Hot ITem in Amsterdam.
+
+        In my work, I focus on building data platforms for larger companies in the Netherlands. This involves both designing the appropriate architecture and tools, as well as implementing these platforms and the data products.
+
+        On this website, I hope to share thoughts on certain developments in the data field. This could be about new techniques, new tools, or new insights.
+    </div>
+
+    <div id="post-list-container">
+        <!-- Hardcoded links to blog posts -->
+        <a href="posts/first-blog-post.html" class="post" data-title="First Blog Post" data-date="2024-10-01">First Blog Post</a>
+        <a href="posts/second-blog-post.html" class="post" data-title="Second Blog Post" data-date="2024-09-30">Second Blog Post</a>
+        <!-- Add more post links manually as needed -->
+    </div>
+
     <ul class="post-list" id="post-list"></ul>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Fetch the JSON file containing post data
-            fetch('posts.json')
-                .then(response => response.json())
-                .then(data => {
-                    const postList = document.getElementById('post-list');
+            const postContainer = document.getElementById('post-list-container');
+            const postList = document.getElementById('post-list');
 
-                    // Loop through each post and create HTML elements
-                    data.forEach(post => {
-                        const listItem = document.createElement('li');
+            // Get all the links to posts (manual addition)
+            const posts = postContainer.querySelectorAll('.post');
 
-                        const postTitle = document.createElement('a');
-                        postTitle.href = post.url;
-                        postTitle.classList.add('post-title');
-                        postTitle.textContent = post.title;
+            posts.forEach(post => {
+                const listItem = document.createElement('li');
 
-                        const postDate = document.createElement('span');
-                        postDate.classList.add('post-date');
-                        postDate.textContent = ` - ${post.date}`;
+                // Create the title link
+                const postTitle = document.createElement('a');
+                postTitle.href = post.href;
+                postTitle.classList.add('post-title');
+                postTitle.textContent = post.getAttribute('data-title');
 
-                        listItem.appendChild(postTitle);
-                        listItem.appendChild(postDate);
-                        postList.appendChild(listItem);
-                    });
-                })
-                .catch(error => {
-                    console.error('Error loading posts:', error);
-                });
+                // Create the post date
+                const postDate = document.createElement('span');
+                postDate.classList.add('post-date');
+                postDate.textContent = ` - ${post.getAttribute('data-date')}`;
+
+                // Append title and date to the list item
+                listItem.appendChild(postTitle);
+                listItem.appendChild(postDate);
+                postList.appendChild(listItem);
+            });
         });
     </script>
 </body>
