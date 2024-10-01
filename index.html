@@ -21,22 +21,13 @@
             margin: 20px auto;
             text-align: center; 
         }
+        #contact a {
+            display: inline-block;
+            margin: 0 15px; /* Adds space between the links */
+            text-decoration: none;
+            color: blue; /* Optional: Adds default link color */
+        }
 
-        .post-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .post-list li {
-            margin-bottom: 10px;
-        }
-        .post-title {
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-        .post-date {
-            font-size: 0.9em;
-            color: gray;
-        }
     </style>
 </head>
 <body>
@@ -51,8 +42,8 @@
     </div>
 
     <div id="contact">
-        <a href="mailto:walthertimmer@protonmail.com">Email</a><br>
-        <a href="https://github.com/walthertimmer" target="_blank">Github</a><br>
+        <a href="mailto:walthertimmer@protonmail.com">Email</a>
+        <a href="https://github.com/walthertimmer" target="_blank">Github</a>
         <a href="https://www.linkedin.com/in/walthertimmer/" target="_blank">Linkedin</a>
     </div>
 
@@ -60,8 +51,6 @@
         <a href="posts/first-blog-post.html" class="post" data-title="First Blog Post" data-date="2024-10-01">First Blog Post</a>
         <a href="posts/second-blog-post.html" class="post" data-title="Second Blog Post" data-date="2024-09-30">Second Blog Post</a>
     </div>
-
-    <ul class="post-list" id="post-list"></ul>
 
 </body>
 </html>
