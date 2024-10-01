@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .post-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .post-list li {
+            margin-bottom: 10px;
+        }
+        .post-title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .post-date {
+            font-size: 0.9em;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Blog</h1>
+    <ul class="post-list" id="post-list"></ul>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Fetch the JSON file containing post data
+            fetch('posts.json')
+                .then(response => response.json())
+                .then(data => {
+                    const postList = document.getElementById('post-list');
+
+                    // Loop through each post and create HTML elements
+                    data.forEach(post => {
+                        const listItem = document.createElement('li');
+
+                        const postTitle = document.createElement('a');
+                        postTitle.href = post.url;
+                        postTitle.classList.add('post-title');
+                        postTitle.textContent = post.title;
+
+                        const postDate = document.createElement('span');
+                        postDate.classList.add('post-date');
+                        postDate.textContent = ` - ${post.date}`;
+
+                        listItem.appendChild(postTitle);
+                        listItem.appendChild(postDate);
+                        postList.appendChild(listItem);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading posts:', error);
+                });
+        });
+    </script>
+</body>
+</html>
