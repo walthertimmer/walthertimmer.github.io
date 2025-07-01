@@ -31,4 +31,4 @@ Worden dan ook plaatjes netjes omgezet? Ja, zie hieronder:
 
 ## Conclusie
 
-Bovenstaande opties maken het allemaal een stuk fijner om even wat in markdown neer te pennen. Bovendien vermijdt je met een simpel build scriptje Jekyll en aanverwanten die in mijn ervaring toch ook weer van erg veel dependencies samenhingen. Of weer teveel configuratie of te weinig html vrijheid om mijn website zo lelijk mogelijk te makne.
+Bovenstaande opties maken het allemaal een stuk fijner om even wat in markdown neer te pennen. Bovendien vermijdt je met een simpel build scriptje Jekyll en aanverwanten die in mijn ervaring toch ook weer van erg veel dependencies samenhingen. Of weer teveel configuratie of te weinig html vrijheid om mijn website zo lelijk mogelijk te maken.
