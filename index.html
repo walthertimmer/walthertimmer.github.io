@@ -1,88 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>walthertimmer.nl</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border-radius: 30px;
-        }
-
-        h1 {
-            font-size: 2.2em;
-            color: #333;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            margin-left: 40px;
-            margin-bottom: 20px;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        #contact {
-            margin: 0 0;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            padding-bottom: 20px;
-        }
-
-        #contact a {
-            display: inline-block;
-            margin: 0 15px; 
-            text-decoration: none;
-            color: blue; 
-        }        
-
-        .post {
-            display: block;
-            text-align: center;
-            margin: 10px 0;
-            color: black;
-            text-decoration: none;
-        }
-
-        .post .post-date {
-            font-size: 0.9em;
-            color: gray;
-        }
-
-        .post .post-title {
-            font-size: 1em;
-            font-weight: normal;
-            margin-left: 5px;
-        }
-
-    </style>
+    <title>Walther Timmer's meterkast</title>
+    <meta name="description" content="Walther Timmer's Meterkast - Data Engineer en Cloud Engineer gespecialiseerd in Azure. Posts over data engineering, data en wat mij verder bezighoudt.">
+    <meta name="author" content="Walther Timmer">
+    <meta property="og:title" content="Walther Timmer's meterkast">
+    <meta property="og:description" content="Walther Timmer's Meterkast - Data Engineer en Cloud Engineer gespecialiseerd in Azure. Posts over data engineering, data en wat mij verder bezighoudt.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://walthertimmer.nl">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Walther Timmer's meterkast">
+    <meta name="twitter:description" content="Walther Timmer's Meterkast - Data Engineer en Cloud Engineer gespecialiseerd in Azure. Posts over data engineering, data en wat mij verder bezighoudt.">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -91,38 +22,40 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-KXHQQJVBNV');
 </script>
 
 <body>
     <div class="container">
-        <h1>Walther D. Timmer</h1>
+        <h1>Walther David Timmer</h1>
 
         <div id="intro-text">
-            <h2>About me</h2>
+            <h2>Over mij</h2>
             <ul>
-                <li>Living in the middle of The Netherlands</li>
-                <li>Doing data engineering and cloud engineering on Azure cloud for work</li>
-                <li>Like to scuba dive, weightlift, swim, talk about politics and read when I'm offline</li>
+                <li>Ik woon min of meer in het midden van het land.</li>
+                <li>Dagelijks tijdens werk bezig met data- en cloud-engineering. En vast ook heel veel meetings.</li>
+                <li>Mijn interessen liggen bij duiken, gewichtheffen, politiek en het lezen van politiek/technische boeken.</li>
             </ul>
         </div>
 
         <div id="contact-container">
-            <h2>Contact</h2>
+            <h2>Contact met mij</h2>
             <div id="contact">
-                <a href="mailto:walthertimmer@protonmail.com">Email</a>
+                <a href="mailto:walthertimmer@protonmail.com">E-mail</a>
                 <a href="https://github.com/walthertimmer" target="_blank">Github</a>
-                <a href="https://www.linkedin.com/in/walthertimmer/" target="_blank">Linkedin</a>
+                <a href="https://www.linkedin.com/in/walthertimmer/" target="_blank">LinkedIn</a>
             </div>
         </div>
 
         <div id="post-list-container">
-            <h2>Posts</h2>
-            <!-- Blog posts with date and title format -->
-            <a href="posts/big-data-platformen-in-2024.html" class="post">
-                <span class="post-date">2024-06-21</span> - 
+            <h2>Schrijfsels van mij</h2>
+            <a href="posts/big_data_platformen_in_2024.html" class="post">
+                <span class="post-date">2024-06-21</span> -
                 <span class="post-title">Big data platformen in 2024</span>
+            </a>
+            <a href="posts/simpel_build_scriptje.html" class="post">
+                <span class="post-date">1994-06-07</span> -
+                <span class="post-title">Simpel build scriptje</span>
             </a>
         </div>
     </div>
