@@ -156,3 +156,11 @@ a:hover {
     margin-top: -15px;
     margin-bottom: 20px;
 }
+
+/* Add mobile-specific styling */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px 10px;
+        border-radius: 20px;
+    }
+}
