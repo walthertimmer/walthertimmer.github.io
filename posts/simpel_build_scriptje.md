@@ -23,7 +23,7 @@ def hello_world():
     print("Hello from markdown!")
 ```
 
-# Plaatjes
+## Plaatjes
 
 Worden dan ook plaatjes netjes omgezet? Ja, zie hieronder:
 
