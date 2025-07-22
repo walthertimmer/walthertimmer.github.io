@@ -6,7 +6,7 @@ description: Hoe werkt de Rijksoverheid. Hoe komt een regeling tot stand.
 
 # Hoe werkt de Rijksoverheid 
 
-In je middelbare school tijd krijg je veelal iets van vak zoals maatschappijleer waarin basaal wordt uitgelegd hoe een overheid werkt en wat het precies doet. Hetzelfde geld als vakken zoals economie op middelbare school maar ook op de universiteit. De overheid is veelal 1 ding of organisme dat beleid vaststelt en uitvoert maar hoe dat nu precies werkt wordt veelal niet heel diep op ingegaan. 
+In je middelbare school tijd krijg je veelal iets van een vak zoals maatschappijleer waarin basaal wordt uitgelegd hoe een overheid werkt en wat het precies doet. Hetzelfde geld als vakken zoals economie op middelbare school maar ook op de universiteit. De overheid is veelal 1 ding of organisme dat beleid vaststelt en uitvoert maar hoe dat nu precies werkt wordt veelal niet heel diep op ingegaan. 
 
 De politiek en haar werk is wel een soort van inzichtelijk doordat veel vergaderingen en stukken openbaar zijn en daarmee te volgen en te begrijpen zijn. Hierna krijg je wetten en beleid dat door de (zittende) regering wordt opgesteld en door moties en amendementen (allemaal mits gedragen) wordt bijgesteld. Ik maak het nu heel simpel maar omtrent dit proces heb je ook nog wat andere partijen zoals de Senaat die ook nog een belangrijke rol spelen tot het tot stand komen van wetten. Voor nu negeren we dat even.
 
