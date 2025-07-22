@@ -163,4 +163,7 @@ a:hover {
         margin: 20px 10px;
         border-radius: 20px;
     }
+    h1 {
+        font-size: 1.5em;
+    }
 }
