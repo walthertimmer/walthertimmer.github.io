@@ -5,7 +5,7 @@ description: Wat brengt Pulumi wat Infrastructure as Code nog nodig had?
 ---
 
 # Infrastructure as Code & Pulumi
- 
+
 Infrastructure as Code (IaC) is al een paar jaar gemeengoed. 
 Daarmee werd veelal de lokale SDK van een cloud provider bedoeld om een en ander qua configuratie gemakkelijk uit te rollen. 
 Of de one tool to rule them all; Terraform. 
