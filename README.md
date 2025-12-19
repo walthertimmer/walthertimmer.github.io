@@ -1,6 +1,6 @@
 # walthertimmer.github.io
 
-personal site
+personal site viewable at [walthertimmer.github.io](https://walthertimmer.github.io) or [walthertimmer.nl](https://walthertimmer.nl/)
 
 ## building the markdown into html pages (linux)
 
