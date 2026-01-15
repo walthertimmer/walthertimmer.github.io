@@ -112,6 +112,7 @@ def create_html_post(title, content, date_str=None, description=None):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>{full_title}</title>
     <meta name="description" content="{html.escape(description)}">
     <meta name="author" content="Walther Timmer">
