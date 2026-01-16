@@ -97,6 +97,8 @@ en zo kan je dit ook doen voor bijvoorbeeld Scaleway als S3 provider:
         maxParallel: 8
 ```
 
-In die overige gevallen blijft de backup zelf identiek want die gebruikt de settings van het cluster. Met deze backups is het ook mogelijk om een nieuw cluster te starten dat zelf de data inlaadt. Handig voor een herstart op een nieuw cluster of het draaien van wat performance tests of een database met dezelfde hoeveelheid data als je productie omgeving. 
+In die overige gevallen blijft de backup zelf identiek want die gebruikt de settings van het cluster. 
+Met deze backups is het ook mogelijk om een nieuw cluster te starten dat zelf de data inlaadt. 
+Handig voor een herstart op een nieuw cluster of het draaien van wat performance tests of een database met dezelfde hoeveelheid data als je productie omgeving. 
 
-Zie verder vooral ook: https://cloudnative-pg.io/documentation/1.25/backup_barmanobjectstore/
+Zie verder vooral ook: [cnpg barman documentatie](https://cloudnative-pg.io/documentation/1.25/backup_barmanobjectstore/)
