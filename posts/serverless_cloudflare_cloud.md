@@ -1,7 +1,7 @@
 ---
 title: serverless cloudflare cloud
 date: 2026-01-16
-description: Gedachtes over een open source data platform. Hoe kan dit eruit zien? Welke tooling komt erbij kijken? En waar moet je aan denken?
+description: Cloudflare is allang niet alleen maar DDOS-protectie en DNS. Cloudflare timmert hard aan haar (serverless) cloud en data mogelijkheden.
 ---
 
 # Serverless Cloudflare cloud
