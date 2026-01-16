@@ -22,4 +22,6 @@ Verder blijft de openheid over issues in de blogs van Cloudflare altijd erg mooi
 
 ## Dublin in ectasy
 
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_OOrjMjeUqg?si=Wi1Wtrdf3RMQLRCX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
