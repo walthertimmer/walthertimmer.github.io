@@ -71,6 +71,30 @@ def parse_markdown_to_html(markdown_text):
 
     return '\n\n'.join(formatted_paragraphs)
 
+def wrap_youtube_iframes(html_content):
+    """
+    Wrap YouTube iframes with video-container div if not already wrapped
+    """
+    import re
+    
+    # Pattern to match iframe tags containing YouTube URLs
+    iframe_pattern = r'<iframe([^>]*(?:youtube\.com|youtu\.be)[^>]*)></iframe>'
+    
+    def replace_iframe(match):
+        iframe_tag = match.group(0)
+        # Check if already wrapped by looking for video-container div before and after
+        # This is a simple check: if the iframe is not inside a div with class="video-container"
+        # We'll use a broader check
+        if '<div class="video-container">' in iframe_tag or '</div>' in iframe_tag:
+            return iframe_tag  # Already wrapped or part of wrapped content
+        else:
+            return f'<div class="video-container">{iframe_tag}</div>'
+    
+    # Replace all YouTube iframes
+    html_content = re.sub(iframe_pattern, replace_iframe, html_content, flags=re.IGNORECASE | re.DOTALL)
+    
+    return html_content
+
 def extract_metadata(markdown_content):
     """
     Extract metadata from markdown front matter or first line
@@ -175,6 +199,9 @@ def process_markdown_files():
 
         # Convert markdown to HTML
         html_content = parse_markdown_to_html(content)
+
+        # Wrap YouTube iframes with video-container
+        html_content = wrap_youtube_iframes(html_content)
 
         # Create complete HTML page
         title = metadata.get('title', md_file.replace('.md', ''))
