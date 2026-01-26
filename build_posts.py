@@ -160,6 +160,7 @@ def create_html_post(title, content, date_str=None, description=None):
 </script>
 
 <body>
+    <div class="banner"></div>
     <div class="container">
         {content}
 
@@ -248,7 +249,7 @@ def update_index_html(posts):
     posts_section = '\n'.join(posts_html)
 
     # Find and replace the posts section
-    pattern = r'(<div id="post-list-container">.*?<h2>Schrijfsels van mij</h2>.*?)(.*?)(</div>)'
+    pattern = r'(<div id="post-list-container">.*?<h2>blogs</h2>.*?)(.*?)(</div>)'
     replacement = f'\\1\n{posts_section}\n        \\3'
 
     updated_content = re.sub(pattern, replacement, content, flags=re.DOTALL)

@@ -4,7 +4,7 @@ date: 2026-01-16
 description: Cloudflare is allang niet alleen maar DDOS-protectie en DNS. Cloudflare timmert hard aan haar (serverless) cloud en data mogelijkheden.
 ---
 
-# Serverless Cloudflare cloud
+# serverless cloudflare cloud
 
 De kerstvakantie is altijd een goede periode om wat te hobby'en naast alle dagen gevuld met sociale familie activiteiten. (Plus ook een goed moment om de laatste griep mee te pakken..)
 
@@ -20,7 +20,7 @@ Effectief is de grootste moeilijkheid in Cloudflare wellicht nog wel het succes 
 
 Verder blijft de openheid over issues in de blogs van Cloudflare altijd erg mooi, vooral tov de summierheid en NDAs van andere partijen. 
 
-## Dublin in ectasy
+## dublin in ectasy
 
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_OOrjMjeUqg?si=Wi1Wtrdf3RMQLRCX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
