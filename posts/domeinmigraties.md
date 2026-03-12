@@ -21,11 +21,11 @@ Voor websites die gericht zijn op de Nederlandse markt is dat meer dan voldoende
 
 Het hele GIT en CI/CD verhaal blijft voorlopig wel Amerikaans aangezien het duopolie Gitlab en GitHub daar geen andere Europese competitie hebben.
 Het enigste wat er nu is, is Codeberg maar dat is nadrukkelijk niet commercieel inzetbaar. 
-                                                                                             
+
 Verder heb ik ook websites bij bunny.net staan maar weer een losse partij erbij is ook niet gewenst. KISS & less is more.
 Ook de cloud native oplossingen zoals Edge services binnen Scaleway lijken relatief simpele maar toch essentiële zaken (denk aan bepaalde redirects/page rules) nog niet te ondersteunen.
-                                                                                                       
+
 Van Google PageSpeed krijgen de websites weer een score van 100 qua performance dus ik ben tevreden.
-                                                                                                      
+
 ![websites](../images/websites.drawio.svg)
                                                                                                                                
