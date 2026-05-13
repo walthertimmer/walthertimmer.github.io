@@ -17,7 +17,7 @@ Microsoft geeft zelf een aantal opties aan:
 [Zie opties extern delen.](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
 
 ## licenties of toch capacity
- 
+
 Buiten dat het toestaan van gastaccounts een centraal onderdeel spelen in het kiezen tussen deze opties is er nog een belangrijk onderdeel waar je rekening mee dient houden bij deze opties; je dient je PowerBI/Fabric capacity te upgraden tot een bepaald formaat ("Only P SKUs and F SKUs F64 or larger let users with a Microsoft Fabric free license and the Viewer role use Power BI apps and shared content.") of je dient per externe gastaccount een extra licentie aan te schaffen. Op dit moment schommelen deze tussen 15 en 25 euro per maand. De genoemde F64 capaciteit is er vanaf 8783 euro per maand. Dus ergens rond de 600 of 400 externe gebruikers (indien je je capaciteit vooruit betaald) zit het omslagpunt om voor dedicated capaciteit te gaan in plaats van losse licenties. 
 
 ## embedding
@@ -42,6 +42,6 @@ Ga je all in op het Microsoft verhaal dan kom je uit op een variant van bovensta
 
 Verder valt natuurlijk op dat je ook nog een gateway nodig hebt voor de connectie tussen Databricks (of andere on-premise bronnen) en Fabric/PowerBI online indien je bron niet publiek toegankelijk is. Hier zijn uiteraard ook 2 varianten van; de on premise gateway en de virtual network data gateway. Uiteraard heeft de nieuwere managed virtual network data gateway [nieuwe limieten en restricties](https://learn.microsoft.com/en-us/data-integration/vnet/overview) en zijn bepaalde mogelijkheden gekoppeld aan de size van je embedding capaciteit. Hou dus rekening met welk formaat datasets je werkt of je zult alsnog onverwacht je embedding capaciteit moeten upgraden. 
 
- ## conclusie
+## conclusie
 
 Je embedding mogelijkheden uitwerken voor externen zijn misschien meer een excelfeestje dan daadwerkelijk een technische uitdaging. 
