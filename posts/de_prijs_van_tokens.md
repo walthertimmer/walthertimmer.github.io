@@ -1,4 +1,4 @@
-—--
+---
 title: de prijs van tokens
 date: 2026-06-08
 description: waar gaan we heen wat betreft de prijs van tokens en de financiële limieten voor het gebruik van LLMs?
