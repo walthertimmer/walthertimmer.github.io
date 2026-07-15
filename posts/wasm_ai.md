@@ -1,0 +1,21 @@
+---
+title: wasm ai
+date: 2026-06-16
+description: is er toekomst buiten de klassieke remote model serving voor data verwerkingen met AI?
+---
+
+# WASM AI
+
+De wereld van AI (zowel op het Large Language Model stuk als anderen modellen) staat niet stil en en leidt continue tot [nieuwe modellen](https://en.wikipedia.org/wiki/List_of_large_language_models). Het lijkt er ook nog steeds op dat frontier modellen groter en groter worden. Voor het fatsoenlijk draaien van deze modellen zal je waarschijnlijk altijd eindigen op cloudgebruik of geduld op hardware innovaties voor het interessant wordt om zelfstandig te kunnen draaien. Er zijn echter partijen die zich steeds meer toespitsen op kleine modellen omdat partijen als Samsung en Apple met grote budgetten ook graag AI op mobieltjes en normale laptops mogelijk willen maken en ook beter willen maken. Gotta join the hype. 
+
+Maar buiten die telefoon use cases maken kleinere en betere modellen ook WASM interference mogelijk. LLMs in de browser. Maar ook [transcriberen](https://prozects.github.io/Whisper.cpp-testing/) en [speech2text](https://huggingface.co/spaces/efficient-nlp/wasm-streaming-speech) zijn in min of mindere mate al mogelijk. 
+
+Binnen de overheid zijn er al mogelijkheden door o.a. Vlam.ai om modellen via API aan te bieden en op termijn zijn ook andere partijen dit groter aanbieden. Echter houdt je daarbij natuurlijk altijd het grootschalig rondpompen van data naar gebruikers naar applicaties en de achterliggende modellen. Dit brengt risico's met zich mee waar je naartoe moet kijken. Ook moet je nadenken of in de toekomst AI dusdanig een tol as usual is of je dit nog wel wilt gatekeepen via specifieke applicaties of dat je dit breed wilt uitrollen voor laagdrempelig gebruik. 
+
+Veel van het AI gebruik is eigenlijk helemaal technisch niet zo spannend, help met schrijven van een mailtje; maak aanpassingen aan een document of vat zaken samen. Of doe een snelle check op documenten. Als al deze acties erin resulteren dat al die documenten altijd naar een applicatie en model moeten heb je 1 grote gevoelige applicatie met heel veel data. Daar kan je natuurlijk goed op auditen en automatisch verwijderpolicies op instellen. Maar wat als het met WASM en de verbetering van kleine AI-modellen op termijn mogelijk is om voor iedereen lokaal via een website die intern gehost is dit soort data verwerkingen door te voeren. Data gaat niet naar het model, maar het model gaat naar de data toe. Gevoelige documenten hoeven niet continue via interne netwerken naar diverse applicaties verzonden te worden maar blijven op de plek waar ze nu al waren. En ook functioneel en technisch beheer krijgt geen inzicht in deze data; iets wat op grotere centrale systemen veelal wel het geval zal zijn. Vooral als het een interne tool betreft en geen core business van een groot bedrijf (alhoewel dat ook niet altijd alles zegt). 
+
+Uiteraard bieden Copilot en consorten ook dit soort oplossingen met lokale verwerkingen maar hierbij ben je wel nadrukkelijk controle kwijt over wat er precies gebeurt in het programma. Voegt een update in de toekomst wel centrale audit en logging toe op een plek die je toch niet zo fijn vindt? En is AI zometeen niet zo centraal dat je zelf in controle wilt zijn welk model gebruikt wordt en op welke termijn je processen overgaan naar een ander model? Plus een harde garantie op nooit extern lekken of trainen van data. 
+
+PrismML [die druk bezig is met modellen in 1 bit te trainen](https://prismml.com/news/prismml-releases-bonsai-27b) zou dit nog eens extra interessant kunnen maken. Opeens kun je grotere modellen met behoudt van 80-90% van functionaliteiten draaien in RAM hoeveelheden waar de meeste corporate laptops aan voldoen. Qwen3.6 27B met een memory footprint van 3.9GB is zeker niet gek.  
+
+WASM biedt dat data blijft waar het al is en is daarmee voor laagdrempelige AI workloads en wijzigingen in de toekomst erg interessant. Plus het zorgt ervoor dat we niet massaal rekken vol gaan hangen met GPUs voor het grootste model terwijl de massa met veelal de bekende 80/20 regel prima af kan [met wat minder](https://tweakers.net/nieuws/250024/datacenter-microsoft-verbruikt-1-procent-van-alle-nederlandse-stroom.html) en op de laptop verwerkt kan worden.
