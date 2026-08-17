@@ -12,20 +12,20 @@ De tijd dat Databricks een simpele tool is om wat Spark loads en vooral machine 
 Databricks wordt steeds meer een "platform" waarbij eigenlijk alle mogelijke data opties die je zou willen realiseren erin afgehandeld kunnen worden. 
 Beetje bij beetje absorbeert het diverse tooling die je eerder wel nodig had in je opzet. 
 
-Orchestratie > Jobs en workflows
-Dashboards > AI/BI Dashboards
-Data applicaties/dashboards zoals Streamlit > Databricks apps
-Kleine CRUD apps > Databricks apps + Lakebase(PostgreSQL)
-AI agents > Agent Bricks / Genie
-(gen)AI Model serving > Model serving / Foundation Models
-API gateway > AI Gateway
-Catalog > Unity Catalog
-Data quality > Lakehouse monitoring
-Metadata > Unity Catalog
-Data warehousing > SQL Warehouse
-ETL > Lakeflow / pipelines
-Alerts > SQL Alerts
-Access management > Unity Catalog permissions & policies
+Orchestratie > Jobs en workflows  
+Dashboards > AI/BI Dashboards  
+Data applicaties/dashboards zoals Streamlit > Databricks apps  
+Kleine CRUD apps > Databricks apps + Lakebase(PostgreSQL)  
+AI agents > Agent Bricks / Genie  
+(gen)AI Model serving > Model serving / Foundation Models  
+API gateway > AI Gateway  
+Catalog > Unity Catalog  
+Data quality > Lakehouse monitoring  
+Metadata > Unity Catalog  
+Data warehousing > SQL Warehouse  
+ETL > Lakeflow / pipelines  
+Alerts > SQL Alerts  
+Access management > Unity Catalog permissions & policies  
 
 Voorheen waren dit eigenlijk allemaal losse onderdelen die je aanvullend aan Databricks inregelde en een keuze maakte qua architectuuropzet hoe je dit wilde doen en welke tool je erbij wilde halen. 
 Doordat Dataricks alles P*Q op gebruik aanbiedt zonder ingewikkelde licentiestructuur zie je dat er een sterke aanzuigingskracht is om voor de Databricks native tool te gaan. 
