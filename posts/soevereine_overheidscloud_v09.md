@@ -4,6 +4,8 @@ date: 2026-09-15
 description: wat vertelt versie 0.9 van de soevereine overheidscloud ons over de aanpak van deze nieuwe cloud?
 ---
 
+## soevereine overheidscloud v0.9
+
 Het ontwerp voor de Soevereine Overheidscloud is op versie 0.9 beland. 
 Het is mooi om te zien dat Gartner direct al in de inleiding wordt genoemd; Gartner blijft toch diehard een plekje houden in de managementlagen. 
 
