@@ -4,6 +4,8 @@ date: 2026-11-20
 description: ubuntu touch en postmarketos / nura op mobiel
 ---
 
+# linux on mobile
+
 De tijd rond black friday is altijd een goed moment om nieuwe technische spullen te kopen. 
 Waar eerdere jaren Raspberry altijd leuke zaken te koop had om met verschillende headers en sensoren te spelen zijn de huidige prijzen iets te gortig geworden door de ram tekorten. 
 Denk aan [RaspberryPis van 4gb die de ±180 euro aantikken](https://tweakers.net/pricewatch/1986382/raspberry-pi-5-4gb-ram.html).
